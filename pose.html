@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+      <!-- Google Font -->
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+      <!--font-->
+      <link rel="stylesheet" href="font/flaticon.css"  />
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="./css/style.css"  />
+      <!--scrool bar-->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <!--favicon-->
+      <link rel="shortcut icon" href="./img/favicon.JPG" type="image/JPG" />
+      <title>YooGa</title>
+   </head>
+   <body onload="myFun()">
+      <div id="loding"></div>
+      <!--Nav Bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container-fluid">
+            <a class="navbar-brand" id="fs" href="#"><img src="./img/favicon.JPG" alt="logo" class="logo"/>Y<span>oo</span>Ga</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="Service.html">Service</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link active" href="pose.html">Pose</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+               </li>
+            </div>
+         </div>
+      </nav>
+      <!--carsoul-->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="./img/yogapose.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-block d-md-block">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="./img/yogaday.jpeg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-block d-md-block text-danger">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <img src="./img/suryaashan.jpg" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-block d-md-block">
+               </div>
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+      <!--thumbnail-->
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/bhujangasana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  भुजंग आसन
+               </h5>
+               <p class="card-text">
+                  भुजंग आसन का रोज अभ्यास से कमर की परेशानियां दूर होती हैं। ये आसन पीठ और मेरूदंड के लिए लाभकारी होता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/balasana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  बाल आसन
+               </h5>
+               <p class="card-text">
+                  बाल आसन से तनाव दूर होता है। शरीर को संतुलिच और रक्त संचार को सामान्य बनाने के लिए इस आसन को किया जाता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/marjariasana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  मर्जरियासन
+               </h5>
+               <p class="card-text">
+                  बिल्ली को मार्जर भी कहते हैं, इसलिए इसे मर्जरियासन कहते हैं। यह योग आसन शरीर को उर्जावान और सक्रिय बनाये रखने के लिए बहुत फायदेमंद है। इस आसन से रीढ़ की हड्डियों में खिंचाव होता है जो शरीर को लचीला बनाता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/sukhasaana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  सुखासन
+               </h5>
+               <p class="card-text">
+                  सुखासन बैठकर किया जाने वाला योग है। ये योग मन को शांति प्रदान करने वाला योग है। इस योग के दौरान नाक से सांस लेना और छोड़ना होता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/tadhasan.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  ताड़ासन
+               </h5>
+               <p class="card-text">
+                  ताड़ासन के अभ्यास से शरीर सुडौल रहता है और इससे शरीर में संतुलन और दृढ़ता आती है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/konaasan.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  कोणासन
+               </h5>
+               <p class="card-text">
+                  कोणासन बैठकर किया जाता है। कमर, रीढ़ की हड्डियां, छाती और कुल्हे इस योग मुद्रा में विशेष रूप से भाग लेते है। इन अंगों में मौजूद तनाव को दूर करने के लिए इस योग को किया जाता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/ustrasan.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  उष्टासन
+               </h5>
+               <p class="card-text">
+                  उष्टासन यानी उंट के समान मुद्रा। इस आसन का अभ्यास करते समय शरीर की उंट की जरह दिखता है। इसलिए इसे उष्टासन कहते हैं। उष्टासन शरीर के अगले भाग को लचीला एवं मजबूत बनाता है। इस आसन से छाती फैलती है जिससे फेफड़ों की कार्यक्षमता में बढ़ोत्तरी होती है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/dandaasan.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  दंडासन
+               </h5>
+               <p class="card-text">
+                  बैठकर किये जाने वाले योगों में एक है दंडासन। इस योग की मुद्रा का नियमित अभ्यास करने से हिप्स और पेडू में मौजूद तनाव दूर होता है और इनमें लचीलापन आता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/halasana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  हलासन
+               </h5>
+               <p class="card-text">
+                  हलासन के रोज अभ्यास से रीढ़ की हड्डियां लचीली रहती है। वृद्धावस्था में हड्डियों की कई प्रकार की परेशानियां हो जाती हैं। यह आसन पेट के रोग, थायराइड, दमा, कफ एवं रक्त सम्बन्धी रोगों के लिए बहुत ही लाभकारी होता है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-in-up">
+         <div class="card text-white bg-success mb-3 mt-5" style="width: 18rem;">
+            <img src="./img/gomukhasana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+               <h5 class="card-title">
+                  गोमुख आसन 
+               </h5>
+               <p class="card-text">
+                  गोमुख आसन शरीर को सुडौल  बनाने वाला योग है। योग की इस मुद्रा को बैठकर किया जाता है। गोमुख आसन स्त्रियों के लिए बहुत ही लाभप्रद व्यायाम है।
+               </p>
+            </div>
+         </div>
+      </div>
+      <footer class="foot" style="margin-top: 15%;">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-twitter"></i>
+         <p>© HealthCareYooga, All Right Reserved.</p>
+      </footer>
+      <!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   </body>
+   <!--scroll bar script-->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init({
+      offset: 140,
+      delay: 0,
+      duration: 1000, 
+      easing: 'ease',
+      once: false,
+      mirror: false, 
+      anchorPlacement: 'top-bottom', 
+      });
+   </script>
+</html>
+<script src="./js/main.js"></script>
